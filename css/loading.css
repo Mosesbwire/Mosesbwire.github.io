@@ -1,0 +1,47 @@
+.loading-page {
+    display: grid;
+    grid-template-rows: auto 180px auto;
+    justify-items: center;
+    height: 100vh;
+}
+
+.line {
+    width: 3px;
+    background-color: darkgray;
+}
+
+.logo-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid;
+    border-color: darkgray;
+    width: 180px;
+    border-radius: 15px;
+    position: relative;
+    
+
+}
+
+.language-logo {
+    width: 80%;
+}
+
+.cover-slip {
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    background-color: #FFFFFF;  
+    
+
+}
+
+.cover-slip__right {
+    left: 100%;
+    top: 15%;
+    transition: height 250ms;
+}
+.cover-slip__left {
+    right: 100%;
+    bottom: 15%;
+}
